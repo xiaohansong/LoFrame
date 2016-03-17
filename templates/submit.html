@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+<div>
+	<div>
+	Submit your code here
+	</div>
+
+	<form method="POST" action="submit/success" id="codeform">
+		ProjectName: <input type="text" name="name"/> <br>
+		Email: <input type="text" name="email"/> <br>
+		Code: <textarea rows="20" cols="80" name="code" id="areacode">Paste code here...</textarea>
+</form>
+	<div>
+		<button type="submit" form="codeform" value="Submit" onClick="javascript:areacode.value=encodeURI(areacode.value)">Submit</button>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+PORT = 5784
+ROOT = templates/
+E404 = E404.html
+DCON = root
+DEF = index

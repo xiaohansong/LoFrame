@@ -1,0 +1,1 @@
+REST_LIST = ["GET", "PUT", "POST", "DELETE"]
